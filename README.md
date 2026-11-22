@@ -2,8 +2,10 @@
 
 一个纯前端的后台管理小系统：登录、路由守卫、概览统计、用户管理（搜索 / 分页 / 新增 / 编辑 / 删除）。
 
-- 线上预览：部署后补充
+- 线上预览：<https://admin-dashboard-react-rust.vercel.app/>
 - 演示账号：`admin` / `123456`
+
+> `*.vercel.app` 在国内访问可能需要代理。
 
 ## 功能
 
@@ -80,6 +82,6 @@ src/
 
 ## 后续计划
 
+- [x] 部署到 Vercel
 - [ ] 接入真实后端（json-server / Express）
-- [ ] 部署到 Vercel
 - [ ] 补充单元测试
